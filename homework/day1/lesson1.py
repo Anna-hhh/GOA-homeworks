@@ -1,6 +1,6 @@
 name = "Anna"             # string
 surname = "Nagervadze"    # string
-age = 14                  # integer
+age = 15                  # integer
 height = "165.5"          # float
 knows_proggraming = False # boolean
 favorite_character = "Silver the hedgehog" # separate variable
@@ -13,4 +13,4 @@ else:
 
 
 
-print("hello, I'm " + name + ", my surname is " + surname + ". I'm " + str(age) + " years old, my height is " + str(height) + " cm, and I " + status + ". I also like " + favorite_character + "<3")
+print("Hello, my name is " + name + ", my surname is " + surname + ". I'm " + str(age) + " years old, my height is " + str(height) + " cm, and  " + status + ".I also like " + favorite_character+".")

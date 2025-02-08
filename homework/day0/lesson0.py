@@ -4,7 +4,7 @@ from turtle import *
 bgcolor("deepskyblue")
 
 
-# we making a house (MASSIVE house)
+# A house
 
 # square
 speed(20)
@@ -27,7 +27,7 @@ end_fill()
 
 #end square 
 
-# door (you know what else is massive?)
+# door
 
 forward(70)
 
@@ -55,7 +55,7 @@ left(120)
 forward(200)
 end_fill()
 
-#more squares (windows)
+# more squares (windows)
 
 #first window
 
@@ -122,7 +122,7 @@ forward(4000)
 
 end_fill()
 
-#pathway (why am i doing this to myself)
+#pathway
 
 color("gray")
 penup()
@@ -155,7 +155,6 @@ forward(80)
 right(230)
 forward(60)
 
-#other way 
 
 left(45)
 forward(70)
@@ -182,9 +181,9 @@ left(115)
 forward(60)
 end_fill()
 
-#end pathway (it took soo long)
+# end pathway 
 
-#sun 
+# sun 
 penup()
 goto(-320,300)
 pendown()
@@ -193,7 +192,7 @@ color("yellow")
 circle(50)
 end_fill()
 
-#cloud
+# cloud
 penup()
 goto(-100,250)
 pendown()
@@ -234,7 +233,8 @@ begin_fill()
 circle(30)
 end_fill()
 
-#idk whats this called
+# chimneys
+
 penup()
 goto(180, 240)  
 setheading(90)  
@@ -254,9 +254,9 @@ forward(20)
 
 end_fill() 
 
-#end (at this point i have no idea what im doing)
+#end of chimneys
 
-#1st windows cross
+# 1st windows cross
 penup()
 goto(35,170)
 pendown()
@@ -271,7 +271,7 @@ pendown()
 left(90)
 forward(50)
 
-#2nd windows cross
+# 2nd windows cross
 
 penup()
 goto(165,130)
@@ -287,7 +287,7 @@ pendown()
 left(90)
 forward(50)
 
-#door handle
+# door handle
 penup()
 goto(75,70)
 pendown()
@@ -296,7 +296,7 @@ begin_fill()
 circle(5)
 end_fill()
 
-#sun rays
+# sun rays
 
 color("yellow")  # yellow
 
@@ -310,15 +310,15 @@ for angle in range(0, 360, 15):
     forward(30)  # length
  
 
-#end sun rays or beams or sxivebi
+#end of sun rays 
 
-#nadzvi (forgor in English)
+# nadzvi 
 
 penup()
 goto(-200,0)
 pendown()
 
-color("chocolate") # CHOCOLATE 
+color("chocolate") 
 
 begin_fill()
 
@@ -342,7 +342,7 @@ forward(30)
 
 end_fill()
 
-#green needls things
+#green needles
 
 color("darkgreen")
 
@@ -385,86 +385,9 @@ forward(60)
 right(140)
 forward(130)
 
+# end of needles
+
 end_fill()
 
-#they told me not to learn programming...
-
-color("black")
-
-penup()
-goto(-415,100)
-pendown()
-
-right (180)
-forward(20)
-
-left(90)
-forward(60)
-
-left(90)
-forward(20)
-
-left(180)
-
-import turtle as t
-import time
-import webbrowser
-import turtle
-
-t.pensize(5)  
-t.color("black")  
-
-# S (they said that its waste of time)
-t.penup()
-t.setpos(-420, 150) 
-t.pendown()
-t.forward(3) 
-t.backward(3)  
-t.circle(-10, -185)  
-t.circle(10, -250)  
-
-import turtle as t
-
-# A (they warned me but im still doing it)
-t.penup()
-t.setpos(-460, 110)  
-t.setheading(75) 
-t.pendown()
-t.forward(45)  
-t.setheading(-75) 
-t.forward(45)
-
-# A horizontal line (like they would care)
-t.penup()
-t.setpos(-458, 120)  
-t.setheading(0)  
-t.pendown()
-t.forward(15)  
-
-t.hideturtle()
-
-
-t.penup()
-t.setpos(-457, 100)  
-t.pendown()
-
-t.setheading(180)  
-t.forward(20)
-
-t.right(90)
-t.forward(60)
-
-t.right(90)
-t.forward(20)
-
-t.hideturtle()
-t.done()
-
-# [ A S ]
-
-
-
-webbrowser.open("SOCIAL.MTDV.ME/WATCH?V=TX0J-OU6ZR")
 
 exitonclick()
-
