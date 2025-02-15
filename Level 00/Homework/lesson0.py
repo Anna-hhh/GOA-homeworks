@@ -1,12 +1,12 @@
 from turtle import *
 
-#sky 
+# Set up the background
 bgcolor("deepskyblue")
 
 
-# A house
+# Draw the house
 
-# square
+# Main square structure
 speed(20)
 width(6)
 color("pink")
@@ -25,23 +25,23 @@ forward(200)
 left(90)
 end_fill()
 
-#end square 
+# End of square 
 
-# door
+# Draw the door
 
 forward(70)
 
 color("red") 
 begin_fill()
 left(90)
-forward(120)  #door height
+forward(120)  # Door height
 right(90)
-forward(60)
+forward(60)   # Door width
 right(90)
 forward(120)
 end_fill()
 
-#triangle (roof)
+# Draw the triangular roof
 
 penup()
 goto(200,200)
@@ -55,9 +55,10 @@ left(120)
 forward(200)
 end_fill()
 
-# more squares (windows)
+# Draw the windows
 
-#first window
+
+# First window
 
 color("yellow")
 begin_fill()
@@ -78,7 +79,7 @@ left(90)
 forward(50)
 end_fill()
 
-#second window
+# Second window
 
 color("yellow")
 begin_fill()
@@ -99,7 +100,7 @@ left(90)
 forward(40)
 end_fill()
 
-#grass 
+# Draw the grass
 
 right(90)
 
@@ -122,7 +123,7 @@ forward(4000)
 
 end_fill()
 
-#pathway
+# Draw the pathway
 
 color("gray")
 penup()
@@ -183,7 +184,7 @@ end_fill()
 
 # end pathway 
 
-# sun 
+# Draw the sun
 penup()
 goto(-320,300)
 pendown()
@@ -192,7 +193,7 @@ color("yellow")
 circle(50)
 end_fill()
 
-# cloud
+# Draw clouds
 penup()
 goto(-100,250)
 pendown()
@@ -233,7 +234,7 @@ begin_fill()
 circle(30)
 end_fill()
 
-# chimneys
+# Draw the chimney
 
 penup()
 goto(180, 240)  
@@ -256,7 +257,7 @@ end_fill()
 
 #end of chimneys
 
-# 1st windows cross
+# Draw window crossbars
 penup()
 goto(35,170)
 pendown()
@@ -270,8 +271,6 @@ pendown()
 
 left(90)
 forward(50)
-
-# 2nd windows cross
 
 penup()
 goto(165,130)
@@ -287,7 +286,7 @@ pendown()
 left(90)
 forward(50)
 
-# door handle
+# Draw the door handle
 penup()
 goto(75,70)
 pendown()
@@ -296,23 +295,22 @@ begin_fill()
 circle(5)
 end_fill()
 
-# sun rays
+# Draw sun rays
 
 color("yellow")  # yellow
 
 
 for angle in range(0, 360, 15):  
     penup()  
-    goto(-320, 250)  # center 
-    setheading(angle)  # direction
-    forward(50)  
+    goto(-320, 250)  # Sun center
+    setheading(angle)  # Set direction
+    forward(50)      # Move outwards
     pendown() 
-    forward(30)  # length
+    forward(30)  # Draw ray
  
+#End of sun rays
 
-#end of sun rays 
-
-# nadzvi 
+# Draw a tree
 
 penup()
 goto(-200,0)
@@ -342,7 +340,7 @@ forward(30)
 
 end_fill()
 
-#green needles
+# Draw tree foliage
 
 color("darkgreen")
 
@@ -385,7 +383,7 @@ forward(60)
 right(140)
 forward(130)
 
-# end of needles
+# End of needls
 
 end_fill()
 
