@@ -1,0 +1,23 @@
+print(5 + 5)
+print(10 + 10)
+print(15 + 15)
+print(20 + 20)
+print(25 + 10)
+
+print(10 - 3)
+print(20 - 7)
+print(30 - 15)
+print(40 - 20)
+print(50 - 25)
+
+print(2 * 3)
+print(4 * 5)
+print(6 * 7)
+print(8 * 9)
+print(10 * 11)
+
+print(10 / 5)
+print(20 / 2)
+print(30 / 3)
+print(40 / 2)
+print(50 / 5)

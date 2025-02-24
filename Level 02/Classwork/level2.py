@@ -1,3 +1,3 @@
-full_name = "Ana Nagervadze"
+fullname = "Ana Nagervadze"
 
-print(full_name)
+print(fullname)

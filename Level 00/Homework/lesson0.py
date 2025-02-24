@@ -388,4 +388,7 @@ forward(130)
 end_fill()
 
 
+hideturtle()
+
+
 exitonclick()
