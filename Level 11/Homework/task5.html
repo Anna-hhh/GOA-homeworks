@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>task 5</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    input {
+      padding: 5px; /* inner space */
+      margin-bottom: 15px; /* space between fields */
+      border: 1px solid #c6c2c2; /* border */
+      border-radius: 5px; /* rounded corners */
+      background-color: #d3d3d3; /* gray background */
+    }
+    .form-group {
+      margin-bottom: 15px; /* space between fields */
+    }
+    label {
+      display: inline-block;
+      width: 120px; /* space for the labels */
+      text-align: right; /* align text to the right */
+      margin-right: 10px; /* space between label and input */
+    }
+
+    .submit {
+      background-color: #d3d3d3;
+      color: #000000;
+      border: 1px solid #c6c2c2;
+      border-radius: 5px; 
+      padding: 10px 27px;
+      font-size: 18px;
+    }
+
+    .reset {
+      background-color: #d3d3d3;
+      color: #000000;
+      border: 1px solid #c6c2c2;
+      border-radius: 5px; 
+      padding: 10px 30px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <h1>HTML form</h1>
+  <form>
+    <div class="form-group">
+      <label for="first_name">First name:</label>
+      <input type="text" id="first_name">
+    </div>
+    <div class="form-group">
+      <label for="last_name">Last name:</label>
+      <input type="text" id="last_name">
+    </div>
+    <div class="form-group">
+      <label for="email">Email id:</label>
+      <input type="email" id="email">
+    </div>
+    <div class="form-group">
+      <label for="number">Mobile Number:</label>
+      <input type="tel" id="number">
+    </div>
+    <button type="submit" class="submit"><b>Submit</b></button>
+    <button type="reset" class="reset"><b>Reset</b></button>
+  </form>
+</body>
+</html>
