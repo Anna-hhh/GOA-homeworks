@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Selector Priority Example</title>
+    <style>
+        /* ელემენტის სელექტორი */
+        p {
+            color: green;
+        }
+
+        /* კლასის სელექტორი */
+        .my-paragraph {
+            color: blue;
+        }
+
+        /* აიდის სელექტორი */
+        #special {
+            color: red;
+        }
+
+        /* 
+        CSS პრიორიტეტები:
+        1. Inline სტილი
+        2. ID სელექტორი
+        3. Class სელექტორი
+        4. ელემენტის სელექტორი
+        */
+    </style>
+</head>
+<body>
+    <!-- ელემენტის სელექტორი იმოქმედებს -->
+    <p>paragraphh</p>
+
+    <!-- კლასის სელექტორი უფრო პრიორიტეტულია -->
+    <p class="my-paragraph">blue.</p>
+
+    <!-- აიდის სელექტორი ყველაზე პრიორიტეტულია (CSS-ში) -->
+    <p class="my-paragraph" id="special">red</p>
+
+    <!-- Inline სტილი ყოველთვის იმარჯვებს -->
+    <p class="my-paragraph" id="special" style="color: orange;">orange</p>
+</body>
+</html>

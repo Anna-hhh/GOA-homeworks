@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Specificity Example</title>
+  <style>
+    /* 
+      CSS specificity ნიშნავს, რომ თუ ერთსა და იმავე ელემენტზე რამდენიმე წესი მოქმედებს,
+      ბრაუზერი არჩევს რომელი წესი გამოიყენოს პრიორიტეტების მიხედვით.
+      პრიორიტეტები:
+      1. ელემენტის სელექტორი (მაგ: p)
+      2. კლასის სელექტორი (მაგ: .my-class)
+      3. აიდის სელექტორი (მაგ: #my-id)
+      4. Inline სტილი (style="...")
+      რაც უფრო მაღალია პრიორიტეტი, მით უფრო ძლიერი გავლენა აქვს სტილს.
+    */
+
+    p {
+      color: green;
+    }
+
+
+    .special {
+      color: blue;
+    }
+
+    #unique {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+
+  <p>ეს პარაგრაფი იქნება მწვანე.</p>
+
+
+  <p class="special">ეს პარაგრაფი იქნება ლურჯი.</p>
+
+
+  <p class="special" id="unique">ეს პარაგრაფი იქნება წითელი.</p>
+
+
+  <p class="special" id="unique" style="color: orange;">ეს პარაგრაფი იქნება ნარინჯისფერი.</p>
+</body>
+</html>

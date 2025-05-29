@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Internal CSS Example</title>
+  <style>
+    /* CSS-ის წესი (rule) შედგება სელექტორისა და ფიგურულ ფრჩხილებში ჩაწერილი დეკლარაციებისგან */
+
+
+    h1 {
+      color: #1976d2;           /* ტექსტის ფერი */
+      text-align: center;       /* ტექსტის ცენტრში განლაგება */
+      font-family: Arial, sans-serif; /* ფონტი */
+      margin-top: 30px;         /* ზედა დაშორება */
+    }
+
+
+    p {
+      color: #388e3c;           /* ტექსტის ფერი */
+      background-color: #e0f7fa;/* ფონის ფერი */
+      font-size: 18px;          /* ტექსტის ზომა */
+      padding: 12px;            /* შიდა დაშორება */
+      border-radius: 8px;       /* მოღუნული კუთხეები */
+      text-align: center;       /* ტექსტის ცენტრში განლაგება */
+    }
+    button {
+      background-color: #ff9800;/* ღილაკის ფონი */
+      color: #fff;              /* ტექსტის ფერი */
+      border: none;             /* საზღვრის გარეშე */
+      padding: 10px 24px;       /* შიდა დაშორება */
+      border-radius: 6px;       /* მოღუნული კუთხეები */
+      font-size: 16px;          /* ტექსტის ზომა */
+      cursor: pointer;          /* მაუსის კურსორი */
+      display: block;
+      margin: 20px auto;
+      transition: background 0.2s;
+    }
+    button:hover {
+      background-color: #f57c00; /* ღილაკის ფერი მაუსის გადატარებისას */
+    }
+
+
+    img {
+      display: block;
+      margin: 20px auto;
+      width: 250px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px #bdbdbd;
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to My Page</h1>
+  <p>example paragraph with some text to demonstrate internal CSS styling.</p>
+  <button>Click Me!</button>
+  <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Nature">
+</body>
+</html>
